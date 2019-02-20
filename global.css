@@ -72,7 +72,7 @@ img {
 .nav li {
     padding: 0 15px;
 }
-.about p {
+.body p {
     max-width: 650px;
 }
 .sidebar ul {
@@ -132,7 +132,7 @@ img {
     .section {
         margin-bottom: 190px;
     }
-    .about {
+    .body {
         padding-right: 45px;
         margin-bottom: 0;
     }
