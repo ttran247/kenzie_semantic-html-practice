@@ -1,7 +1,10 @@
+html {
+    font-size: 16px;
+    font-size: 1rem;
+}
 html, body {
     margin: 0;
     padding: 0;
-    font-size: 1rem;
 }
 body > * {
     box-sizing: border-box;
@@ -94,7 +97,7 @@ img {
     cursor: pointer;
     box-shadow: 1px 1px 35px rgba(0,0,0,0.17);
 }
-.soup .image img {
+.soup .image-wrapper img {
     object-fit: cover; 
     height: 100%;
     width: 100%;
