@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Semantic HTML</title>
-    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="global.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
 </head>
+
 <body>
     <hero class="section hero" id="home">
         <nav class="nav">
@@ -32,7 +36,13 @@
         <div class="row">
             <section class="section body" id="about">
                 <p>
-                    Cras a nibh turpis. Nullam sit amet justo euismod, dignissim augue eu, cursus est. Nam porta ultrices risus non pellentesque. Sed pharetra interdum metus, vitae porttitor ex vulputate nec. Suspendisse sodales at ligula non pulvinar. Cras dignissim neque vitae est hendrerit, in mattis nisi dapibus. Curabitur malesuada sem odio, eget tempor nisl ullamcorper euismod. Quisque fermentum ac leo quis gravida. Vestibulum a sagittis massa, nec vehicula arcu. Maecenas et pulvinar elit, vehicula ultrices nisl. Donec ultrices sapien eget ultrices consequat. Duis malesuada dui at odio consequat efficitur.
+                    Cras a nibh turpis. Nullam sit amet justo euismod, dignissim augue eu, cursus est. Nam porta
+                    ultrices risus non pellentesque. Sed pharetra interdum metus, vitae porttitor ex vulputate nec.
+                    Suspendisse sodales at ligula non pulvinar. Cras dignissim neque vitae est hendrerit, in mattis nisi
+                    dapibus. Curabitur malesuada sem odio, eget tempor nisl ullamcorper euismod. Quisque fermentum ac
+                    leo quis gravida. Vestibulum a sagittis massa, nec vehicula arcu. Maecenas et pulvinar elit,
+                    vehicula ultrices nisl. Donec ultrices sapien eget ultrices consequat. Duis malesuada dui at odio
+                    consequat efficitur.
                 </p>
             </section>
 
@@ -88,7 +98,7 @@
     <div class="footer container">
         <section class="row">
             <footer class="footer-links">
-               <a href="#">contact</a>
+                <a href="#">contact</a>
                 <a href="#">Terms of Use</a>
                 <a href="#">External Resources</a>
                 <a href="#">Policies</a>
@@ -102,9 +112,50 @@
             </address>
 
             <map class="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16729.873195620403!2d26.6909825496327!3d58.38945180574219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eb36fa7e2e7b23%3A0xf0fdc061d6defba0!2sSupilinn%2C+51007+Tartu%2C+Estonia!5e0!3m2!1sen!2sus!4v1544559661945" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16729.873195620403!2d26.6909825496327!3d58.38945180574219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eb36fa7e2e7b23%3A0xf0fdc061d6defba0!2sSupilinn%2C+51007+Tartu%2C+Estonia!5e0!3m2!1sen!2sus!4v1544559661945"
+                    width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
             </map>
+
+            <form action="https://formspree.io/xayngbrq" method="POST">
+                <div class="form">
+                    <h2>FeedBack</h2>
+                    
+                    <label>
+                        <i class="fa fa-user"></i>
+
+
+                        First-name:
+                        
+                        <input type="text" name=first-name> 
+                    </label>
+                    <label>
+                        <i class="fa fa-user"></i>
+
+
+                        Last-name:
+                        <input type="text" name=last-name>
+                    </label> 
+                    <label>
+                        <i class="fa fa-envelope"></i>
+                        Email:
+                    </label>
+                        <input type="email" name="replyto">
+                    <label>
+                        Message:
+                        
+                    </label>
+                        <textarea name="message"> </textarea>
+                </div>
+                <button class= "button" type="submit" value="Send"> Send </button>
+        
+                </form>
         </section>
     </div>
+
+   
+
+
 </body>
+
 </html>
